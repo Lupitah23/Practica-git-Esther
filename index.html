@@ -19,4 +19,35 @@
 
      <h2>Resultado: <span id="resultado"></span></h2>
 </body>
+ <script>
+
+    function sumar() {
+        let n1 = Number(document.getElementById("num1").value);
+        let n2 = Number(document.getElementById("num2").value);
+
+        document.getElementById("resultado").textContent = n1 + n2;
+        }
+
+    function restar() {
+        let n1 = Number(document.getElementById("num1").value);
+        let n2 = Number(document.getElementById("num2").value);
+
+        document.getElementById("resultado").textContent = n1 - n2;
+        }
+
+    function multiplicar() {
+        let n1 = Number(document.getElementById("num1").value);
+        let n2 = Number(document.getElementById("num2").value);
+
+        document.getElementById("resultado").textContent = n1 * n2;
+        }
+
+    function dividir() {
+        let n1 = Number(document.getElementById("num1").value);
+        let n2 = Number(document.getElementById("num2").value);
+
+        document.getElementById("resultado").textContent = n1 / n2;
+        }
+
+    </script>
 </html>
